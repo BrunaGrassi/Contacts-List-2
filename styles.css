@@ -1,0 +1,93 @@
+* {
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(74, 66, 74);
+    min-width: 960px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    color: #e7e7e7;
+    margin: 10px;
+    text-shadow: 3px 5px 6px #242424;
+}
+
+ul.contacts-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 960px;
+}
+
+.contacts-card li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    list-style: none;
+    flex-basis: 280px;
+    min-width: 280px;
+    position: relative;
+    border-radius: 2%;
+    background-image: url(images/thumb01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 3px 5px 6px #242424;
+}
+
+div.profile-image {
+    max-width: 280px;
+    max-height: 200px;
+    box-sizing: border-box;
+}
+
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.contact-information p {
+    margin-bottom: 10px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 70px;
+    margin: 120px 0 0 0;
+}
+
+div.edit-buttons {
+    background-color: #dedede;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+p.contact-name {
+    font-size: 22px;
+}
+
+a.new-contact {
+    margin: 20px;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    background-color: #fff;
+    color: rgb(74, 66, 74);
+    border-radius: 5px;
+}
+
+a.new-contact:hover {
+    background-color: #242424;
+    color: #dedede;
+}
